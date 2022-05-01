@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        .outer-container {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 20cm;
+            justify-content: space-between;
+            width: 760px;
+            height: 115px;
+            align-items: center;
+        }
+
+        .child {
+            height: 3cm;
+            width: 6cm;
+            background-color: green;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        .child1 {
+            display: flex;
+
+        }
+
+        .child2 {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .child3 {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+        }
+
+        p {
+            margin: 0%;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="outer-container">
+        <div class="container">
+            <div class="child child1">
+                <p>child 1</p>
+            </div>
+            <div class="child child2">
+                <p>child 2</p>
+            </div>
+            <div class="child child3">
+                <p>child 3</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

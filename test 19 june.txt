@@ -1,0 +1,32 @@
+Question 1 - An array is given, return the sum of all the positives numbers. const input = [ 1, -5, 2, 10, -30, 29, 50];
+Ans:
+const input = [ 1, -5, 2, 10, -30, 29, 50];
+let sum=0;
+for(let i=0;i<input.length;i++){
+	if(input[i]>0){
+	sum=sum+input[i];
+	}
+}
+console.log(sum);
+
+
+
+
+Question 2 - Multiple records of people are given, you have to print the first name and last name . let friends = [           {fname: 'Rachal', lname:"Green" ,id: 1, marks : 98 },          {fname: 'Ross',lname:"Geller" , id: 2, marks : 23 },          {fname: 'Monica ',lname:"Geller" , id: 3, marks : 75 },          {fname: 'Joey',lname:" Tribbiani" , id: 4, marks : 46 },          {fname: 'Chandler  ',lname:"Bing" , id: 5, marks : 78 },          {fname: 'Phoebe',lname:"Buffay" , id: 6, marks : 45 }           ]
+Ans:
+friends = [          
+ {fname: 'Rachal', lname:"Green" ,id: 1, marks : 98 },   
+  {fname: 'Ross',lname:"Geller" , id: 2, marks : 23 },  
+  {fname: 'Monica ',lname:"Geller" , id: 3, marks : 75 },
+  {fname: 'Joey',lname:" Tribbiani" , id: 4, marks : 46 },
+  {fname: 'Chandler  ',lname:"Bing" , id: 5, marks : 78 }, 
+  {fname: 'Phoebe',lname:"Buffay" , id: 6, marks : 45 }    ]
+
+for(let i=0;i<friends.length;i++){
+	console.log(`${friends[i].fname} ${friends[i].lname}`);
+}
+
+
+
+Question 3 - 
+
